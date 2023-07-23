@@ -1,0 +1,23 @@
+{
+  "name": "app-inventor-file-upload",
+  "version": "1.0.0",
+  "description": "Easy file upload from MIT App Inventor.",
+  "main": "dist/index.js",
+  "author": "Richard Xiong",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^2.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/concat-stream": "^2.0.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.4"
+  },
+  "files": [
+    "dist"
+  ]
+}
