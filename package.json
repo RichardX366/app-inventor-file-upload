@@ -1,6 +1,6 @@
 {
   "name": "app-inventor-file-upload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy file upload from MIT App Inventor.",
   "main": "dist/index.js",
   "author": "Richard Xiong",
